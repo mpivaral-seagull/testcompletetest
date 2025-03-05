@@ -1,0 +1,7 @@
+﻿
+function test(){
+  let page = "https://www.smartbear.com/";
+  Browsers.Item(btChrome).Run(page);
+  Sys.Browser().Page("https://smartbear.com/").FindElement("//li[contains(., 'Products')]").Click();
+  Sys.Browser().Page("https://smartbear.com/").FindElement("//a[contains(., 'TestComplete')]").Click();
+}
