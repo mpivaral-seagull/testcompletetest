@@ -8,4 +8,6 @@ function test(){
   if (Sys.Browser().Page("https://smartbear.com/product/testcomplete/").WaitElement("//a[.='Start My Free Trial']", 5000).Exists) {
     Sys.Browser().Page("https://smartbear.com/product/testcomplete/").FindElement("//a[.='Start My Free Trial']").Click();
   }
+  
+  //comentario
 }
